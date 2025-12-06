@@ -13,21 +13,21 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Purple 600: hsl(246, 80%, 60%)
+- Purple 600: #5847ebff
 
-- Orange 300 (work): hsl(15, 100%, 70%)
-- Blue 300 (play): hsl(195, 74%, 62%)
-- Pink 400 (study): hsl(348, 100%, 68%)
-- Green 400 (exercise): hsl(145, 58%, 55%)
-- Purple 700 (social): hsl(264, 64%, 52%)
-- Yellow 300 (self care): hsl(43, 84%, 65%)
+- Orange 300 (work): #ff8c66ff
+- Blue 300 (play): #56c2e6ff
+- Pink 400 (study): #ff5c7cff
+- Green 400 (exercise): #4acf81ff
+- Purple 700 (social): #7536d3ff
+- Yellow 300 (self care): #f1c65bff
 
 ### Neutral
 
-- Navy 950: hsl(226, 43%, 10%)
-- Navy 900: hsl(235, 46%, 20%)
-- Purple 500: hsl(235, 45%, 61%)
-- Navy 200: hsl(236, 100%, 87%)
+- Navy 950: #0f1424ff
+- Navy 900: #1c1f4aff
+- Purple 500: #6f76c8ff
+- Navy 200: #bdc1ffff
 
 ## Typography
 

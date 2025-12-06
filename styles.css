@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #0f1424ff;
+    --secondary-color: #1c1f4aff;
+    --font-family: 'rubik', sans-serif;
+    --text-color-primary: #ffffff;
+    --text-color-secondary: #6f76c8ff;
+}
+body{
+    font-family: var(--font-family);
+    background-color: var(--primary-color);
+    color: var(--text-color-primary);
+}
+
+.dashboard-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 40px;
+}
+.profile-card{
+    grid-column: 1 ;
+    grid-row: 1 / span 2;
+    background-color: var(--secondary-color);
+    border-radius: 15px;
+    padding: 0;
+    width: 250px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+ 
+.profile-card__header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px;
+    background-color: #5847ebff;
+    padding-top: 10px;
+    padding-bottom: 40px; 
+    padding-left: 0px;  
+    width: 100%;
+    border-radius: 15px;
+}
+
+.profile-card__img{
+    width: 80px;
+    height: 80px;
+    border: 3px solid white;
+    border-radius: 50%;  
+    object-fit: cover;
+}
+
+.profile-card__text{
+    text-align: left;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.profile-card__text .text-small{
+    font-size: 14px;
+    color: var(--text-color-secondary);
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.profile-card__text h1{
+    font-size: 36px;
+    font-weight: 300;
+    color: var(--text-color-primary);
+    line-height: 1.2;
+}
+
+.profile-card__nav{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px 20px;
+    width: 100%;
+}
+
+.nav-btn{
+    background: none;
+    border: none;
+    color: var(--text-color-secondary);
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: var(--font-family);
+    padding: 8px 0;
+    transition: color 0.3s ease;
+    text-align: left;
+}
+
+.nav-btn:hover{
+    color: var(--text-color-primary);
+}
+
+.nav-btn--active{
+    color: var(--text-color-primary);
+    font-weight: 500;
+}
