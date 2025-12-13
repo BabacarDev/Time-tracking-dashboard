@@ -256,3 +256,19 @@ body{
     }
     
 }
+.attribution{
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    color: #888888;
+    font-family: var(--font-family);
+}
+.attribution a{
+    color: #888888;
+    text-decoration: none;
+}
+.attribution a:hover{
+    text-decoration: underline;
+}
